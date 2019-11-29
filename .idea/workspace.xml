@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49299559-1d59-42dc-a3b2-02d0fb2b4ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geomatikk_project/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/geomatikk_project/core.clj" afterDir="false" />
     </list>
@@ -14,8 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -31,8 +29,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geomatikk_project/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            <state relative-caret-position="280">
+              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/my_polygon_mod.geojson">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret column="127" lean-forward="true" selection-start-column="127" selection-end-column="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/my_polygon.geojson">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="853">
+              <caret column="463065" selection-start-column="463065" selection-end-column="463065" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/Polygon.geojson">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -46,14 +71,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/resources/my_polygon_mod.geojson" />
+        <option value="$PROJECT_DIR$/resources/my_polygon.geojson" />
         <option value="$PROJECT_DIR$/src/geomatikk_project/core.clj" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="width" value="1922" />
-    <option name="height" value="1053" />
+    <option name="x" value="1061" />
+    <option name="y" value="259" />
+    <option name="width" value="1674" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -101,7 +129,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="ReplState" timestamp="1572970910314">{:repl-history {:ide [], :local [{:command &quot;(core/foo \&quot;nigger\&quot;)&quot;, :offset 19, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(foo \&quot;nigger\&quot;)&quot;, :offset 14, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [10.30243138 63.31073235]\n                [10.30253053 63.30976535])&quot;, :offset 86, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(- 1 2)&quot;, :offset 7, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [0 0]\n                [0 10])&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [0 0]\n                [10 0])&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [10 0]\n                [10 10])&quot;, :offset 49, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 2000 [10 10]\n                [10 0])&quot;, :offset 52, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 2000 [10 0]\n                [0 0])&quot;, :offset 50, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-axis-centre 100 2000)&quot;, :offset 32, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get square :geometry)&quot;, :offset 22, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square [:geometry] )&quot;, :offset 28, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square [:geometry :coordiantes] )&quot;, :offset 41, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square [:geometry :coordinates] )&quot;, :offset 41, :ns &quot;geomatikk-project.core&quot;} {:command &quot;[\&quot;a\&quot; \&quot;b\&quot;]&quot;, :offset 9, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(conj  [\&quot;a\&quot; \&quot;b\&quot;] \&quot;c\&quot;)&quot;, :offset 21, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(conj [1 2] [3 4])&quot;, :offset 18, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area square)&quot;, :offset 17, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(println (get-point-pairs square))&quot;, :offset 34, :ns &quot;geomatikk-project.core&quot;} {:command &quot;get-area&quot;, :offset 8, :ns &quot;geomatikk-project.core&quot;} {:command &quot;vecs&quot;, :offset 4, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def vecs (get-point-pairs square))&quot;, :offset 35, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(doall vecs)&quot;, :offset 12, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area (get-point-pairs square))&quot;, :offset 35, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def point-pairs (get-point-pairs square))&quot;, :offset 42, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area point-pairs)&quot;, :offset 22, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-centroid square)&quot;, :offset 27, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-area (first polygons))&quot;, :offset 33, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-area (get-point-pairs (first polygons)))&quot;, :offset 51, :ns &quot;geomatikk-project.core&quot;} {:command &quot;centroids&quot;, :offset 9, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-centroid (first polygons))&quot;, :offset 37, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area (first polygons))&quot;, :offset 27, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first plygons)&quot;, :offset 15, :ns &quot;geomatikk-project.core&quot;} {:command &quot;polygons&quot;, :offset 8, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area (get-point-pairs (first polygons)))&quot;, :offset 45, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs (first polygons))&quot;, :offset 34, :ns &quot;geomatikk-project.core&quot;} {:command &quot;square&quot;, :offset 6, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs (square))&quot;, :offset 26, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first polygons)&quot;, :offset 16, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs square)&quot;, :offset 24, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs square-holes)&quot;, :offset 30, :ns &quot;geomatikk-project.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1575048199628">{:repl-history {:ide [], :local [{:command &quot;(core/foo \&quot;nigger\&quot;)&quot;, :offset 19, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(foo \&quot;nigger\&quot;)&quot;, :offset 14, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [10.30243138 63.31073235]\n                [10.30253053 63.30976535])&quot;, :offset 86, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(- 1 2)&quot;, :offset 7, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [0 0]\n                [0 10])&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [0 0]\n                [10 0])&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [10 0]\n                [10 10])&quot;, :offset 49, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 2000 [10 10]\n                [10 0])&quot;, :offset 52, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 2000 [10 0]\n                [0 0])&quot;, :offset 50, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-axis-centre 100 2000)&quot;, :offset 32, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get square :geometry)&quot;, :offset 22, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square [:geometry] )&quot;, :offset 28, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square [:geometry :coordiantes] )&quot;, :offset 41, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square [:geometry :coordinates] )&quot;, :offset 41, :ns &quot;geomatikk-project.core&quot;} {:command &quot;[\&quot;a\&quot; \&quot;b\&quot;]&quot;, :offset 9, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(conj  [\&quot;a\&quot; \&quot;b\&quot;] \&quot;c\&quot;)&quot;, :offset 21, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(conj [1 2] [3 4])&quot;, :offset 18, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(println (get-point-pairs square))&quot;, :offset 34, :ns &quot;geomatikk-project.core&quot;} {:command &quot;get-area&quot;, :offset 8, :ns &quot;geomatikk-project.core&quot;} {:command &quot;vecs&quot;, :offset 4, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def vecs (get-point-pairs square))&quot;, :offset 35, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(doall vecs)&quot;, :offset 12, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def point-pairs (get-point-pairs square))&quot;, :offset 42, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area point-pairs)&quot;, :offset 22, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-area (first polygons))&quot;, :offset 33, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-area (get-point-pairs (first polygons)))&quot;, :offset 51, :ns &quot;geomatikk-project.core&quot;} {:command &quot;centroids&quot;, :offset 9, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-centroid (first polygons))&quot;, :offset 37, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area (first polygons))&quot;, :offset 27, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first plygons)&quot;, :offset 15, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area (get-point-pairs (first polygons)))&quot;, :offset 45, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs (first polygons))&quot;, :offset 34, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs (square))&quot;, :offset 26, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs square-holes)&quot;, :offset 30, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(+ 1 2)&quot;, :offset 7, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-centroid square)&quot;, :offset 27, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area square)&quot;, :offset 17, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area (get-point-pairs square))&quot;, :offset 35, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs square)&quot;, :offset 24, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-sub-polygons square-holes)&quot;, :offset 31, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-sub-polygons (first polygons))&quot;, :offset 35, :ns &quot;geomatikk-project.core&quot;} {:command &quot;squarre&quot;, :offset 7, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-sub-polygons square)&quot;, :offset 25, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map calculate-top-level-attributes square-holes)&quot;, :offset 49, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(:properties (first polygons)) &quot;, :offset 30, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map calculate-top-level-attributes (first polygons))&quot;, :offset 53, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first polygons)&quot;, :offset 16, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def polygon (first polygons))&quot;, :offset 30, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def input polygon)&quot;, :offset 19, :ns &quot;geomatikk-project.core&quot;} {:command &quot;input&quot;, :offset 5, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map calculate-top-level-attributes  (:properties input))&quot;, :offset 57, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map calculate-top-level-attributes input)&quot;, :offset 42, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def my-map (hash-map polygon))&quot;, :offset 31, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map? input)&quot;, :offset 12, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map? square)&quot;, :offset 13, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(vec? square)&quot;, :offset 13, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(vector? square)&quot;, :offset 16, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map calculate-top-level-attributes square)&quot;, :offset 43, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map? polygon)&quot;, :offset 14, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(vec polygon)&quot;, :offset 13, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map calculate-top-level-attributes (vec polygon))&quot;, :offset 50, :ns &quot;geomatikk-project.core&quot;} {:command &quot;polygon&quot;, :offset 7, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map calculate-top-level-attributes polygon)&quot;, :offset 44, :ns &quot;geomatikk-project.core&quot;} {:command &quot;polygons&quot;, :offset 8, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(vector? polygons)&quot;, :offset 18, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map? (first polygons))&quot;, :offset 23, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map calculate-top-level-attributes polygons)&quot;, :offset 45, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (first polygon))&quot;, :offset 48, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes square)&quot;, :offset 39, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (first polygons))&quot;, :offset 49, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes square-holes)&quot;, :offset 45, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (first square))&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (first square-holes))&quot;, :offset 53, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (last polygons))&quot;, :offset 48, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (first square-holes2))&quot;, :offset 54, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-minimum-bounding-box square)&quot;, :offset 39, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-minimum-bounding-box square-holes2)&quot;, :offset 46, :ns &quot;geomatikk-project.core&quot;} {:command &quot;square&quot;, :offset 6, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(min 10 20 30 40)&quot;, :offset 17, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(min '(10 20 30 40))&quot;, :offset 20, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-minimum-bounding-box (first square))&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-minimum-bounding-box (first square-holes2))&quot;, :offset 54, :ns &quot;geomatikk-project.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -168,18 +196,20 @@
       <workItem from="1571660114924" duration="16891000" />
       <workItem from="1571685524812" duration="590000" />
       <workItem from="1571746092031" duration="5642000" />
-      <workItem from="1572959860164" duration="10277000" />
+      <workItem from="1572959860164" duration="10610000" />
+      <workItem from="1573840096756" duration="601000" />
+      <workItem from="1575040154518" duration="7182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33400000" />
+    <option name="totallyTimeSpent" value="41516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2625133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -210,7 +240,7 @@
       <window_info anchor="right" id="Leiningen" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info active="true" anchor="right" id="REPL" order="10" side_tool="true" visible="true" weight="0.2886049" />
+      <window_info active="true" anchor="right" id="REPL" order="10" side_tool="true" visible="true" weight="0.28700745" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,13 +251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Polygon.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -244,10 +267,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/my_polygon.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret column="463065" selection-start-column="463065" selection-end-column="463065" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/my_polygon_mod.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret column="127" lean-forward="true" selection-start-column="127" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Polygon.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/geomatikk_project/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        <state relative-caret-position="280">
+          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
         </state>
       </provider>
     </entry>

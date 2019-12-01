@@ -18,6 +18,7 @@
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.10.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.specs.alpha:0.2.44" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/data.json:0.2.6" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/math.numeric-tower:0.0.4" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/spec.alpha:0.2.176" level="project" />
   </component>
 </module>

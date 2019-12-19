@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: factual/geo:3.0.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/factual/geo/3.0.1/geo-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

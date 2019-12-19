@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49299559-1d59-42dc-a3b2-02d0fb2b4ade" name="Default Changelist" comment="" />
+    <list default="true" id="49299559-1d59-42dc-a3b2-02d0fb2b4ade" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__ch_hsr_geohash_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_annotations_2_10_0_pr1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_uber_h3_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_vividsolutions_jts_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__factual_geo_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__meridian_clj_jts_0_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__meridian_shapes_0_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_locationtech_jts_io_jts_io_common_1_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_locationtech_jts_jts_core_1_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_locationtech_proj4j_proj4j_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_locationtech_spatial4j_spatial4j_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_wololo_jts2geojson_0_14_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geomatikk-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geomatikk-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geomatikk_project/centroid_distance.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/geomatikk_project/centroid_distance.clj" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,51 +32,71 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            <state relative-caret-position="135">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geomatikk_project/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-960">
+              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/geomatikk_project/core.clj">
+        <entry file="file://$PROJECT_DIR$/src/geomatikk_project/centroid_distance.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="103" column="40" lean-forward="true" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+            <state relative-caret-position="833">
+              <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/resources/my_polygon_mod.geojson" />
+        <option value="$PROJECT_DIR$/resources/my_polygon.geojson" />
         <option value="$PROJECT_DIR$/src/geomatikk_project/core.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/geomatikk_project/centroid_distance.clj" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="width" value="1922" />
-    <option name="height" value="1053" />
+    <option name="x" value="1907" />
+    <option name="y" value="148" />
+    <option name="width" value="1658" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,22 +120,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="geomatikk_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="geomatikk-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="cursive.last.file.extension./home/bartosz/Clojure/geomatikk-project/src" value="clj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="ReplState" timestamp="1571755647749">{:repl-history {:ide [], :local [{:command &quot;(core/foo \&quot;nigger\&quot;)&quot;, :offset 19, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(foo \&quot;nigger\&quot;)&quot;, :offset 14, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [10.30243138 63.31073235]\n                [10.30253053 63.30976535])&quot;, :offset 86, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(- 1 2)&quot;, :offset 7, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [0 0]\n                [0 10])&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [0 0]\n                [10 0])&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 0 [10 0]\n                [10 10])&quot;, :offset 49, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 2000 [10 10]\n                [10 0])&quot;, :offset 52, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(sum-centroid-x 2000 [10 0]\n                [0 0])&quot;, :offset 50, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-axis-centre 100 2000)&quot;, :offset 32, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get square :geometry)&quot;, :offset 22, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square [:geometry] )&quot;, :offset 28, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square [:geometry :coordiantes] )&quot;, :offset 41, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square [:geometry :coordinates] )&quot;, :offset 41, :ns &quot;geomatikk-project.core&quot;} {:command &quot;[\&quot;a\&quot; \&quot;b\&quot;]&quot;, :offset 9, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(conj  [\&quot;a\&quot; \&quot;b\&quot;] \&quot;c\&quot;)&quot;, :offset 21, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(conj [1 2] [3 4])&quot;, :offset 18, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area square)&quot;, :offset 17, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(println (get-point-pairs square))&quot;, :offset 34, :ns &quot;geomatikk-project.core&quot;} {:command &quot;get-area&quot;, :offset 8, :ns &quot;geomatikk-project.core&quot;} {:command &quot;vecs&quot;, :offset 4, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def vecs (get-point-pairs square))&quot;, :offset 35, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(doall vecs)&quot;, :offset 12, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area (get-point-pairs square))&quot;, :offset 35, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def point-pairs (get-point-pairs square))&quot;, :offset 42, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area point-pairs)&quot;, :offset 22, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-centroid square)&quot;, :offset 27, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-area (first polygons))&quot;, :offset 33, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-area (get-point-pairs (first polygons)))&quot;, :offset 51, :ns &quot;geomatikk-project.core&quot;} {:command &quot;centroids&quot;, :offset 9, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-centroid (first polygons))&quot;, :offset 37, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area (first polygons))&quot;, :offset 27, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first plygons)&quot;, :offset 15, :ns &quot;geomatikk-project.core&quot;} {:command &quot;polygons&quot;, :offset 8, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-area (get-point-pairs (first polygons)))&quot;, :offset 45, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs (first polygons))&quot;, :offset 34, :ns &quot;geomatikk-project.core&quot;} {:command &quot;square&quot;, :offset 6, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs (square))&quot;, :offset 26, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first polygons)&quot;, :offset 16, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs square)&quot;, :offset 24, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-point-pairs square-holes)&quot;, :offset 30, :ns &quot;geomatikk-project.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1576715210546">{:repl-history {:ide [], :local [{:command &quot;(calculate-top-level-attributes (first polygon))&quot;, :offset 48, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes square)&quot;, :offset 39, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (first polygons))&quot;, :offset 49, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes square-holes)&quot;, :offset 45, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (first square))&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (first square-holes))&quot;, :offset 53, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (last polygons))&quot;, :offset 48, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-top-level-attributes (first square-holes2))&quot;, :offset 54, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-minimum-bounding-box square)&quot;, :offset 39, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-minimum-bounding-box square-holes2)&quot;, :offset 46, :ns &quot;geomatikk-project.core&quot;} {:command &quot;square&quot;, :offset 6, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(min 10 20 30 40)&quot;, :offset 17, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(min '(10 20 30 40))&quot;, :offset 20, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-minimum-bounding-box (first square))&quot;, :offset 47, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(calculate-minimum-bounding-box (first square-holes2))&quot;, :offset 54, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/calculate-euclidean-distance nil nil)&quot;, :offset 74, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/calculate-euclidean-distance square-holes2 square-holes2)&quot;, :offset 94, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in square-holes2 [:properties :my-centroid])&quot;, :offset 49, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/calculate-euclidean-distance (first square-holes2) (first square-holes2))&quot;, :offset 110, :ns &quot;geomatikk-project.core&quot;} {:command &quot;square-holes2&quot;, :offset 13, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(run-polygons square-holes)&quot;, :offset 27, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/calculate-centroid-distance (first square-holes2) square-holes2)&quot;, :offset 101, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/calculate-centroid-distance (first square-holes2) (first square))&quot;, :offset 102, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(run-polygons polygons)&quot;, :offset 23, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first (run-polygons polygons))&quot;, :offset 31, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/calculate-centroid-distance (first (run-polygons polygons))(first (run-polygons polygons)))&quot;, :offset 128, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/run-centroid-distance-calculations)&quot;, :offset 72, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(reduce + 1 [2 3 4 5])&quot;, :offset 22, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/describe-similarity (first polygons) (first polygons))&quot;, :offset 91, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/describe-similarity (first (run-polygons polygons)) (first (run-polygons polygons)))&quot;, :offset 121, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/describe-similarity (first (run-polygons polygons)) (first (run-polygons modified-polygons)))&quot;, :offset 130, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/describe-similarity (first (run-polygons polygons)) (last (run-polygons modified-polygons)))&quot;, :offset 129, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/run-centroid-distance-calculations (first polygons) (first polygons))&quot;, :offset 106, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/run-centroid-distance-calculations polygons polygons)&quot;, :offset 90, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/run-centroid-distance-calculations polygons modified-polygons)&quot;, :offset 99, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(use 'cli-jts.core)&quot;, :offset 19, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(use 'geomatikk-project.core)&quot;, :offset 29, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(use geo.jts)&quot;, :offset 13, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(use 'geo.jts)&quot;, :offset 14, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(use 'factual.geo)&quot;, :offset 18, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(import org.locationtech.jts.algorithm.match)&quot;, :offset 45, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first polygons)&quot;, :offset 16, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in (first polygons) [:geometry :coordinates])&quot;, :offset 50, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first (get-in (first polygons) [:geometry :coordinates]))&quot;, :offset 58, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first (first (get-in (first polygons) [:geometry :coordinates])))&quot;, :offset 66, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first (first (get-in (last polygons) [:geometry :coordinates])))&quot;, :offset 65, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first (get-in (last polygons) [:geometry :coordinates]))&quot;, :offset 57, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in (last polygons) [:geometry :coordinates])&quot;, :offset 49, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(get-in (last modified-polygons) [:geometry :coordinates])&quot;, :offset 58, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(first (get-in (last modified-polygons) [:geometry :coordinates]))&quot;, :offset 66, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(jts/polygon )&quot;, :offset 13} {:command &quot;(jts/polygon [[[1 1] [2 2] [10 0]]])&quot;, :offset 36, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(jts/polygon [[[0 0] [10 0] [10 10] [0 0]]])&quot;, :offset 44, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(jts/polygon [[[0.5 0.5] [10 0] [10 10] [0.5 0.5]]])&quot;, :offset 52, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(jts/polygon (first (get-in (last modified-polygons) [:geometry :coordinates])))&quot;, :offset 80, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(jts/polygon [(first (get-in (last modified-polygons) [:geometry :coordinates]))])&quot;, :offset 82, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(jts/polygon (get-in (last modified-polygons) [:geometry :coordinates]))&quot;, :offset 72, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def my_pol (jts/polygon (get-in (last modified-polygons) [:geometry :coordinates])))&quot;, :offset 85, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(import org.locationtech.jts.algorithm.match.HausdorffSimilarityMeasure)&quot;, :offset 72, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(.measure my_pol my_pol)&quot;, :offset 24, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(.measure (jts/polygon (get-in (last modified-polygons) [:geometry :coordinates])) (jts/polygon (get-in (last modified-polygons) [:geometry :coordinates])))&quot;, :offset 156, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(import com.vividsolutions.jts.algorithm.match.HausdorffSimilarityMeasure)&quot;, :offset 74, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(require meridian.clj-jts :as jts)&quot;, :offset 34, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(.measure (meridian.clj-jts/polygon (get-in (last modified-polygons) [:geometry :coordinates])) (meridian.clj-jts/polygon (get-in (last modified-polygons) [:geometry :coordinates])))&quot;, :offset 182, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def my-pol (meridian.clj-jts/polygon (get-in (first modified-polygons) [:geometry :coordinates])))&quot;, :offset 99, :ns &quot;geomatikk-project.core&quot;} {:command &quot;my_pol&quot;, :offset 6, :ns &quot;geomatikk-project.core&quot;} {:command &quot;my-pol&quot;, :offset 6, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(.measure my-pol my-pol)&quot;, :offset 24, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(.measure my-pol)&quot;, :offset 17, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(.measure my-pol, my-pol)&quot;, :offset 25, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(.measure HausdorffSimilarityMeasure my-pol, my-pol)&quot;, :offset 52, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def my-measure (new HausdorffSimilarityMeasure))&quot;, :offset 49, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(.measure my-measure my-pol, my-pol)&quot;, :offset 36, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/run-hausdorff-matching (first polygons) (first polygons))&quot;, :offset 94, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/run-hausdorff-matching (vector (first polygons)) (first (first polygons)))&quot;, :offset 111, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/create-polygon (first polygons))&quot;, :offset 69, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def my_pol_1 (geomatikk-project.centroid-distance/create-polygon (first polygons)))&quot;, :offset 84, :ns &quot;geomatikk-project.core&quot;} {:command &quot;my_pol_1&quot;, :offset 8, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/hausdorff-sim-measure (new HausdorffSimilarityMeasure) my_pol_1 my_pol_1)&quot;, :offset 110, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def my-mod-pols (map geomatikk-project.centroid-distance/create-polygon polygons))&quot;, :offset 83, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/run-hausdorff (new HausdorffSimilarityMeasure) my-mod-pols my_pol_1)&quot;, :offset 105, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/run-hausdorff-matching polygons polygons)&quot;, :offset 78, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(time (geomatikk-project.centroid-distance/run-hausdorff-matching polygons polygons))&quot;, :offset 85, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(time (doall(geomatikk-project.centroid-distance/run-hausdorff-matching polygons polygons)))&quot;, :offset 92, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(time (doall(geomatikk-project.centroid-distance/run-centroid-distance-calculations polygons modified-polygons)))&quot;, :offset 113, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(time (doall(geomatikk-project.centroid-distance/run-hausdorff-matching polygons modified-polygons)))&quot;, :offset 101, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(map max (geomatikk-project.centroid-distance/simplyfy (doall(geomatikk-project.centroid-distance/run-centroid-distance-calculations polygons modified-polygons))))&quot;, :offset 163, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/simplyfy (doall(geomatikk-project.centroid-distance/run-centroid-distance-calculations polygons modified-polygons)))&quot;, :offset 153, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(apply max (0.0847233850619915\n       0.05211767428308775\n       0.09891359418336124\n       0.11096655588239453\n       0.05313921439960296\n       0.04411604545226569\n       0.11228695402668215\n       0.0600280257445087\n       0.09064991734577393\n       0.3076076673930136\n       0.2347119069522442\n       0.05478098457571974\n       0.15951015408524924\n       0.1579040410765296\n       0.06587714468437215\n       0.04895472439433426\n       0.08154794730535003\n       0.04209052129629741\n       0.04690253854257466\n       0.06821970753736693\n       0.07916903326177453\n       0.041385513082268635\n       0.12287559896121507\n       0.03669105526139711\n       0.07261729952897208\n       0.05050747022774841\n       0.036227015159515694\n       0.055650442952851424\n       0.0720095511686209\n       0.047847326377540696\n       0.10878042219778575\n       0.06585709868615874\n       0.05700990829442446\n       0.04500395942354723\n       0.13429666180727828\n       0.05025720644811148\n       0.031709659712798724\n       0.05174903510265558\n       0.4603679515105527\n       0.0968781029161478\n       0.05702355314682854\n       0.21217007410558664\n       0.0385473025612461\n       0.08372393736223009\n       0.06057637282010531\n       0.22652873710444132\n       0.04736912985899378\n       0.06298615665983623\n       0.059377106584623494\n       0.0450877738655816\n       0.107334765168418\n       0.09254759984962203\n       0.0765893163466863\n       0.040137191046817726\n       0.05461499258556963\n       0.3063727557827301\n       0.05199092911628157\n       0.07587910085574127\n       0.04727783636055676\n       0.04788776774507535\n       0.09600723358142806\n       0.09209947969048189\n       0.07895111817870737\n       0.17050334809186668\n       0.05294021951543481\n       0.03805467886378178\n       0.06738322631065607\n       0.06286386053766883\n       0.050439887785874084\n       0.184763232560149\n       0.11607794512217418\n       0.08883434263965716\n       0.056011700705246664\n       0.07404830307710032\n       0.039033319061708406\n       0.04425078174468921\n       0.05890713875566226\n       0.04721482347940157\n       0.060464935709571926\n       0.061729713572288396\n       0.09732941937105598\n       0.05211910869718768\n       0.0772873448212241\n       0.06036609545173616\n       0.08970930170121405\n       0.11557728207909614\n       0.3822847571240221\n       0.07150403968433756\n       0.043341654631622\n       0.3536397859278998\n       0.08282759615089627\n       0.23512511891274956\n       0.05657454624283911\n       0.06428871082340916\n       0.0506607780111224\n       0.11877075127848015\n       0.11162548770582607\n       0.0659315662836968\n       0.07940288636658122\n       0.9470717369938579))&quot;, :offset 7} {:command &quot;(max (0.0847233850619915\n       0.05211767428308775\n       0.09891359418336124\n       0.11096655588239453\n       0.05313921439960296\n       0.04411604545226569\n       0.11228695402668215\n       0.0600280257445087\n       0.09064991734577393\n       0.3076076673930136\n       0.2347119069522442\n       0.05478098457571974\n       0.15951015408524924\n       0.1579040410765296\n       0.06587714468437215\n       0.04895472439433426\n       0.08154794730535003\n       0.04209052129629741\n       0.04690253854257466\n       0.06821970753736693\n       0.07916903326177453\n       0.041385513082268635\n       0.12287559896121507\n       0.03669105526139711\n       0.07261729952897208\n       0.05050747022774841\n       0.036227015159515694\n       0.055650442952851424\n       0.0720095511686209\n       0.047847326377540696\n       0.10878042219778575\n       0.06585709868615874\n       0.05700990829442446\n       0.04500395942354723\n       0.13429666180727828\n       0.05025720644811148\n       0.031709659712798724\n       0.05174903510265558\n       0.4603679515105527\n       0.0968781029161478\n       0.05702355314682854\n       0.21217007410558664\n       0.0385473025612461\n       0.08372393736223009\n       0.06057637282010531\n       0.22652873710444132\n       0.04736912985899378\n       0.06298615665983623\n       0.059377106584623494\n       0.0450877738655816\n       0.107334765168418\n       0.09254759984962203\n       0.0765893163466863\n       0.040137191046817726\n       0.05461499258556963\n       0.3063727557827301\n       0.05199092911628157\n       0.07587910085574127\n       0.04727783636055676\n       0.04788776774507535\n       0.09600723358142806\n       0.09209947969048189\n       0.07895111817870737\n       0.17050334809186668\n       0.05294021951543481\n       0.03805467886378178\n       0.06738322631065607\n       0.06286386053766883\n       0.050439887785874084\n       0.184763232560149\n       0.11607794512217418\n       0.08883434263965716\n       0.056011700705246664\n       0.07404830307710032\n       0.039033319061708406\n       0.04425078174468921\n       0.05890713875566226\n       0.04721482347940157\n       0.060464935709571926\n       0.061729713572288396\n       0.09732941937105598\n       0.05211910869718768\n       0.0772873448212241\n       0.06036609545173616\n       0.08970930170121405\n       0.11557728207909614\n       0.3822847571240221\n       0.07150403968433756\n       0.043341654631622\n       0.3536397859278998\n       0.08282759615089627\n       0.23512511891274956\n       0.05657454624283911\n       0.06428871082340916\n       0.0506607780111224\n       0.11877075127848015\n       0.11162548770582607\n       0.0659315662836968\n       0.07940288636658122\n       0.9470717369938579))&quot;, :offset 2688, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(apply max '(0.0847233850619915\n       0.05211767428308775\n       0.09891359418336124\n       0.11096655588239453\n       0.05313921439960296\n       0.04411604545226569\n       0.11228695402668215\n       0.0600280257445087\n       0.09064991734577393\n       0.3076076673930136\n       0.2347119069522442\n       0.05478098457571974\n       0.15951015408524924\n       0.1579040410765296\n       0.06587714468437215\n       0.04895472439433426\n       0.08154794730535003\n       0.04209052129629741\n       0.04690253854257466\n       0.06821970753736693\n       0.07916903326177453\n       0.041385513082268635\n       0.12287559896121507\n       0.03669105526139711\n       0.07261729952897208\n       0.05050747022774841\n       0.036227015159515694\n       0.055650442952851424\n       0.0720095511686209\n       0.047847326377540696\n       0.10878042219778575\n       0.06585709868615874\n       0.05700990829442446\n       0.04500395942354723\n       0.13429666180727828\n       0.05025720644811148\n       0.031709659712798724\n       0.05174903510265558\n       0.4603679515105527\n       0.0968781029161478\n       0.05702355314682854\n       0.21217007410558664\n       0.0385473025612461\n       0.08372393736223009\n       0.06057637282010531\n       0.22652873710444132\n       0.04736912985899378\n       0.06298615665983623\n       0.059377106584623494\n       0.0450877738655816\n       0.107334765168418\n       0.09254759984962203\n       0.0765893163466863\n       0.040137191046817726\n       0.05461499258556963\n       0.3063727557827301\n       0.05199092911628157\n       0.07587910085574127\n       0.04727783636055676\n       0.04788776774507535\n       0.09600723358142806\n       0.09209947969048189\n       0.07895111817870737\n       0.17050334809186668\n       0.05294021951543481\n       0.03805467886378178\n       0.06738322631065607\n       0.06286386053766883\n       0.050439887785874084\n       0.184763232560149\n       0.11607794512217418\n       0.08883434263965716\n       0.056011700705246664\n       0.07404830307710032\n       0.039033319061708406\n       0.04425078174468921\n       0.05890713875566226\n       0.04721482347940157\n       0.060464935709571926\n       0.061729713572288396\n       0.09732941937105598\n       0.05211910869718768\n       0.0772873448212241\n       0.06036609545173616\n       0.08970930170121405\n       0.11557728207909614\n       0.3822847571240221\n       0.07150403968433756\n       0.043341654631622\n       0.3536397859278998\n       0.08282759615089627\n       0.23512511891274956\n       0.05657454624283911\n       0.06428871082340916\n       0.0506607780111224\n       0.11877075127848015\n       0.11162548770582607\n       0.0659315662836968\n       0.07940288636658122\n       0.9470717369938579))&quot;, :offset 16} {:command &quot;(apply max ( 1 2))&quot;, :offset 18, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(apply max '(1 2))&quot;, :offset 18, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/get-mean (geomatikk-project.centroid-distance/simplyfy (doall(geomatikk-project.centroid-distance/run-centroid-distance-calculations polygons modified-polygons))))&quot;, :offset 200, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def mean-c (geomatikk-project.centroid-distance/get-mean (geomatikk-project.centroid-distance/simplyfy (doall(geomatikk-project.centroid-distance/run-centroid-distance-calculations polygons modified-polygons)))))&quot;, :offset 213, :ns &quot;geomatikk-project.core&quot;} {:command &quot;mean-c&quot;, :offset 6, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(def mean-h (geomatikk-project.centroid-distance/get-mean (geomatikk-project.centroid-distance/simplyfy (doall(geomatikk-project.centroid-distance/run-hausdorff-matching polygons modified-polygons)))))&quot;, :offset 201, :ns &quot;geomatikk-project.core&quot;} {:command &quot;mean-h&quot;, :offset 6, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/get-sd (geomatikk-project.centroid-distance/simplyfy (doall(geomatikk-project.centroid-distance/run-centroid-distance-calculations polygons modified-polygons))) mean-c)&quot;, :offset 205, :ns &quot;geomatikk-project.core&quot;} {:command &quot;(geomatikk-project.centroid-distance/get-sd (geomatikk-project.centroid-distance/simplyfy (doall(geomatikk-project.centroid-distance/run-hausdorff-matching polygons modified-polygons))) mean-h)&quot;, :offset 193, :ns &quot;geomatikk-project.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -160,16 +210,25 @@
       <workItem from="1571660114924" duration="16891000" />
       <workItem from="1571685524812" duration="590000" />
       <workItem from="1571746092031" duration="5642000" />
+      <workItem from="1572959860164" duration="10610000" />
+      <workItem from="1573840096756" duration="601000" />
+      <workItem from="1575040154518" duration="7246000" />
+      <workItem from="1575103745627" duration="3656000" />
+      <workItem from="1575127341390" duration="10631000" />
+      <workItem from="1575211156494" duration="613000" />
+      <workItem from="1575212347227" duration="4873000" />
+      <workItem from="1575286799956" duration="10303000" />
+      <workItem from="1576706323028" duration="5177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23123000" />
+    <option name="totallyTimeSpent" value="76833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <frame x="1919" y="0" width="1682" height="1051" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2796093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -186,7 +245,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.32834226" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.16470589" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
@@ -200,24 +259,40 @@
       <window_info anchor="right" id="Leiningen" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info active="true" anchor="right" id="REPL" order="10" side_tool="true" visible="true" weight="0.3397231" />
+      <window_info active="true" anchor="right" id="REPL" order="10" side_tool="true" visible="true" weight="0.2796093" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/Polygon-utm.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/centroids-utm.geojson">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/centroids-utm-2.geojson">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/my_polygon_mod.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="127" selection-start-column="127" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1.jar!/org/locationtech/jts/algorithm/match/HausdorffSimilarityMeasure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -228,16 +303,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/centroids-utm.geojson">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/resources/my_polygon.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="878">
+          <caret column="463065" selection-start-column="463065" selection-end-column="463065" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/centroids-utm-2.geojson">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geomatikk_project/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="103" column="40" lean-forward="true" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+        <state relative-caret-position="-960">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geomatikk_project/centroid_distance.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
         </state>
       </provider>
     </entry>

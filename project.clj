@@ -5,6 +5,10 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.clojure/data.json "0.2.6"]
-                 [org.clojure/math.numeric-tower "0.0.4"]]
+                 [org.clojure/math.numeric-tower "0.0.4"]
+                 [org.locationtech.jts/jts-core "1.16.1"]
+                 [com.vividsolutions/jts "1.13"]
+                 [factual/geo "3.0.1"]
+                 [meridian/clj-jts "0.0.2"]]
   :repl-options {:init-ns geomatikk-project.core
                 })
